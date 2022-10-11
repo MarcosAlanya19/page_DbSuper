@@ -1,0 +1,16 @@
+{
+  "name": "api-db",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d ./dist"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}

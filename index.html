@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body class="bg-purple-900 h-screen">
+    <!-- <img src="./img/DBSuper.png" alt=""> -->
+    <div>
+      <div class="container mx-auto grid md:grid-cols-2 h-screen md:items-center">
+        <section>
+          <div class="flex flex-col mx-10">
+            <label for="inputCharacter" class="text-white"
+              >Seleccione su personaje:</label
+            >
+            <input class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" type="text" id="inputCharacter" list="characters" />
+            <datalist id="characters">
+            </datalist>
+          </div>
+        </section><!-- SELECT CHARACTER -->
+
+        <section id="cardCharacter" class="mt-10 mx-10 flex justify-center">
+        </section><!-- CHARACTER -->
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
